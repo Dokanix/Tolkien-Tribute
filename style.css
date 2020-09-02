@@ -29,6 +29,7 @@ header {
 
 h1 {
     font-family: 'Amiri', serif;
+    text-shadow: 5px 5px 5px black;
     font-size: 80px;
     font-weight: 400;
 
@@ -53,6 +54,7 @@ section {
 
 figcaption {
     font-family: 'Amiri', serif;
+    text-shadow: 2px 2px 2px black;
     font-size: 24px;
     font-weight: 700;
     color: #C5C2C2;
@@ -75,12 +77,14 @@ figcaption {
 }
 
 .text h2 {
+    text-shadow: 2px 2px 2px black;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .text p {
+    text-shadow: 2px 2px 2px black;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-bottom: 20px;
@@ -103,6 +107,7 @@ footer p {
 }
 
 a {
+    text-decoration: none;
     color: lightblue;
 }
 
