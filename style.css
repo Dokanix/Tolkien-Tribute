@@ -54,11 +54,15 @@ section {
 
 figcaption {
     font-family: 'Amiri', serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     text-shadow: 2px 2px 2px black;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
     color: #C5C2C2;
     text-align: center;
+    margin-top: -40px;
     padding: 5px;
     margin-bottom: 50px;
 }
@@ -109,6 +113,13 @@ footer p {
 a {
     text-decoration: none;
     color: lightblue;
+}
+
+@media (max-width: 930px) {
+    figcaption {
+        font-size: 24px;
+        margin-top: -30px;
+    }
 }
 
 @media (max-width: 480px) { 
