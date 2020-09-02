@@ -102,6 +102,10 @@ footer p {
     color: #565656;
 }
 
+a {
+    color: lightblue;
+}
+
 @media (max-width: 480px) { 
     .title { 
         right: 0;
